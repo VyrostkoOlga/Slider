@@ -4,7 +4,6 @@ target 'Slider_Example' do
   pod 'Slider', :path => '../'
 
   target 'Slider_Tests' do
-    inherit! :search_paths
 
     pod 'Specta'
   pod 'Expecta'
