@@ -1,9 +1,9 @@
 {
   "name": "Slider",
   "version": "0.1.0",
-  "summary": "A short description of Slider.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Slider",
+  "summary": "A small visual slider for representing pictures",
+  "description": "A small visual slider for representing pictures (for iOS apps)",
+  "homepage": "https://github.com/VyrostkoOlga/Slider",
   "license": {
     "type": "MIT",
     "file": "LICENSE"

@@ -9,6 +9,7 @@
 #import "SLViewController.h"
 
 @interface SLViewController ()
+@property (weak, nonatomic) IBOutlet Slider *mainSlider;
 
 @end
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.mainSlider.images = @[@"1", @"2"];
+    self.mainSlider.startPresenting();
 }
 
 - (void)didReceiveMemoryWarning

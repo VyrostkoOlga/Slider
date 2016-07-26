@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Slider : UIImage
+@interface Slider : UIImageView
+
+@property (nonatomic, strong) NSMutableArray * images;
+
+-(void) startPresenting;
+-(void) endPresenting;
 
 @end
